@@ -14,7 +14,7 @@ export default function Cadastroendereco(){
             <input type="text" />
             <label>Estado</label>
             <input type="text" />
-            <Link to="/cadastro-formacao"><button>Continuar</button></Link>
+            <Link to="/cadastro-formacao"><button className="btn">Continuar</button></Link>
         </form>
     )
 }

@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Logincadastro image={loginimage} titulo={"Olá, bem-vindo novamente! "}><Login/></Logincadastro>}/>
-          <Route path="/cadastro-pessoais" element={<Logincadastro image={loginimage} titulo={"Por favor. Digite algumas informações pessoais"}><Cadastropessoais/></Logincadastro>}/>
+          <Route path="/cadastro-pessoais" element={<Logincadastro image={loginimage} titulo={"Preencha corretamente com suas informações para criar sua conta"}><Cadastropessoais/></Logincadastro>}/>
           <Route path="/cadastro-endereco" element={<Logincadastro image={loginimage} titulo={"Legal! Agora precisamos saber aonde reside"}><Cadastroendereco/></Logincadastro>}/> 
           <Route path="/cadastro-formacao" element={<Logincadastro image={loginimage} titulo={"Otimo! Agora precisamos da sua formação"}><Cadastroformacao/></Logincadastro>}/>
           <Route path="/cadastro-skills" element={<Logincadastro image={loginimage} titulo={"Ok! Agora nos informe algumas de suas habilidades!"}><Cadastroskills/></Logincadastro>}/>

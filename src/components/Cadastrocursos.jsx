@@ -20,7 +20,7 @@ export default function Cadastrocursos(){
             <input type="url"/>
             <label>Credencial</label>
             <input type="number"/>
-            <Link to="/cadastro-resume"><button>Continuar</button></Link>
+            <Link to="/cadastro-resume"><button className="btn">Continuar</button></Link>
         </form>
     )
 }

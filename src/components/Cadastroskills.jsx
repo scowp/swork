@@ -21,7 +21,7 @@ export default function Cadastroskills(){
             <button>Adicionar habilidade</button>
             <div>Mostra hard skills</div>
             <div>Mostra soft skills</div>
-            <Link to="/cadastro-experiencia"><button>Continuar</button></Link>
+            <Link to="/cadastro-experiencia"><button className="btn">Continuar</button></Link>
         </form>
     )
 }

@@ -14,7 +14,7 @@ export default function Cadastroexperiencia(){
             <input type="text" />
             <label>Tempo de empresa</label>
             <input type="text" />
-            <Link to="/cadastro-cursos"><button>Continuar</button></Link>
+            <Link to="/cadastro-cursos"><button className="btn">Continuar</button></Link>
         </form>
     )
 }

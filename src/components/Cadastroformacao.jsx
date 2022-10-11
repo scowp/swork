@@ -12,7 +12,7 @@ export default function Cadastroformacao(){
             <label>Completo?</label>
             <label>Data final</label>
             <input type="date" />
-            <Link to="/cadastro-skills"><button>Continuar</button></Link>
+            <Link to="/cadastro-skills"><button className="btn">Continuar</button></Link>
         </form>
     )
 }
